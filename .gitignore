@@ -1,1 +1,35 @@
+# Jupyter Notebook files
 *.ipynb
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+
+# Data and output folders
+data/
+output/
+
+# Shell scripts
+*.sh
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Temporary files
+*~
+.DS_Store       # macOS file
+Thumbs.db       # Windows file
+
+# Environment configuration files
+.env
+
+# IDE or editor configurations
+.vscode/
+.idea/
+.Rproj.user

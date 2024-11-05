@@ -1,0 +1,18 @@
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: true
+  classoption: openany
+
+bookdown::epub_book: default
+
+bookdown::bs4_book:
+  css: style.css
+  split_by: 
+  template: bs4_template.html
+  config:
+    toc:
+      collapse: 
+    download: ["pdf", "epub"]
