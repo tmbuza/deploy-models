@@ -9,7 +9,9 @@ def generate_hypothetical_data(num_samples=100):
     data = {
         'Feature1': np.random.rand(num_samples),
         'Feature2': np.random.rand(num_samples),
-        'Feature3': np.random.randint(1, 100, size=num_samples),
+        'Feature3': np.random.randint(101, 200, size=num_samples),
+        'Feature4': np.random.randint(201, 300, size=num_samples),
+        'Feature5': np.random.randint(1, 100, size=num_samples),
         'Target': np.random.choice(['Class A', 'Class B'], size=num_samples)
     }
     return pd.DataFrame(data)
