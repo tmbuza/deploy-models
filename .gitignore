@@ -7,8 +7,6 @@ env/
 venv/
 
 # Data and output folders
-data/
-!data/boston_housing.csv
 output/
 
 # Shell scripts
